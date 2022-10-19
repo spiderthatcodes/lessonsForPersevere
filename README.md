@@ -1,0 +1,2 @@
+# lessonsForPersevere
+In class lessons
