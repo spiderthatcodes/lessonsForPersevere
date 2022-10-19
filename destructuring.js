@@ -21,7 +21,6 @@ const studentNames = [
   'Eloise',
   'Faraday',
 ];
-
 const [ studentA, studentB, studentC, studentD, studentE, studentF ] = studentNames;
 
 console.log(studentD);
@@ -34,21 +33,7 @@ const editName = (studentNames, position, newName) => {
       studentA = newName;
       console.log(studentA);
       break;
-    case 'B':
-      studentB = newName;
-      break;
-    case 'C':
-      studentC = newName;
-      break;
-    case 'D':
-      studentD = newName;
-      break;
-    case 'E':
-      studentE = newName;
-      break;
-    case 'F':
-      studentF = newName;
-      break;
+
     default:
       break;
   }
@@ -57,7 +42,6 @@ const editName = (studentNames, position, newName) => {
 };
 
 editName(studentNames, "A", "Agatha");
-
 
 const teacherInfo = {
   fullTeacherName: 'Jessica Dickerson',
