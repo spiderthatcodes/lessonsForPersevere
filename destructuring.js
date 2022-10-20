@@ -33,7 +33,26 @@ const editName = (studentNames, position, newName) => {
       studentA = newName;
       console.log(studentA);
       break;
-
+      case 'B':
+      studentB = newName;
+      console.log(studentB);
+      break;
+      case 'C':
+      studentC = newName;
+      console.log(studentC);
+      break;
+      case 'D':
+      studentD = newName;
+      console.log(studentD);
+      break;
+      case 'E':
+      studentE = newName;
+      console.log(studentE);
+      break;
+      case 'F':
+      studentF = newName;
+      console.log(studentF);
+      break;
     default:
       break;
   }
