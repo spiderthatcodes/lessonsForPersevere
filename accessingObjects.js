@@ -9,7 +9,7 @@ const exampleObject = {
         arachnid: ['kiki', 'lala']
     }
 };
-
+console.log(exampleObject["favorite foods"])
 // DOT NOTATION
 
 const dotPersonName = exampleObject.name;
@@ -17,19 +17,15 @@ const dotPersonName = exampleObject.name;
 console.log(dotPersonName);
 
 // BRACKET NOTATION
-
-// const brokenPersonName = exampleObject[name];
-
-// console.log(brokenPersonName);
-
-// const bracketPersonName = ?;
-
+console.log(exampleObject['name']);
 
 // ACCESS ALL FAVORITE FOODS
+console.log(exampleObject['favorite foods'][1])
 
 // ACCESS ONE FAVORITE FOOD
 
 // ACCESS SECOND CHILD WITH DOT NOTATION AND BRACKET NOTATION
+console.log(exampleObject.children[1])
 
 // GET SECOND ARACHNID NAME 
 
