@@ -28,12 +28,14 @@ const exampleObjectArray = [
 
 // MAPPING AN ARRAY OF OBJECTS
 
-// exampleObjectArray.map((item) => console.log(item.name));
+// exampleObjectArray.map((item, index) => console.log(item.name, index));
 
 // FILTER AN ARRAY
 
-// let filteredArray = exampleArray.filter((item) => item.includes("r"));
+let filteredArray = exampleArray.filter((item) => item.includes("ur"));
 
 // console.log(filteredArray);
 
+let filteredObject = exampleObjectArray.filter((item) => item.age === 23).map((item) => item.name);
 
+console.log(filteredObject);
